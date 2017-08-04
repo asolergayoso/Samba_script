@@ -1,4 +1,4 @@
-# Samba_script
+# Network_drive_script
 This bash script allows to quickly set up a netwrok drive (wiht the name Courses) on a Debian system
 
 ## User Setup
