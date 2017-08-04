@@ -1,5 +1,5 @@
 # Network_drive_script
-This bash script allows to quickly set up a netwrok drive (wiht the name Courses) on a Debian system
+This bash script allows to quickly set up a netwrok drive (with the name Courses) on a Debian system
 
 ## User Setup
 It is important to mention that the script will set the current user as the valid user for Samba, once it runs. For that reason, it is very important to mention that the user should not be logged in as root when running the script.
@@ -27,6 +27,6 @@ On linux, we can go to Files >> + other locations >> type "smb://serverIP/Course
 To change a specific samba password we use the command "smbpasswd -a username". For instance, if we want to change the samba password of the student account, we type 'sudo smbpasswd -a student'.
 
 ## Further Configuration
-Configuring the config file smb.conf will allow for further confiduration of the system, such as allowing only certain IP's, groups, establishing domain names and more.
+Configuring the config file smb.conf will allow for further confiduration of the system, such as allowing only certain IP's, groups, establishing domain names and more. Check out reference.conf as an example. The command "tesetparm" is usefull to find syntax or configuration errors on smb.conf
 
 
