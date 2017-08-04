@@ -15,7 +15,7 @@ Finally, the sript will run the command " smbclient -L //localhost" which will b
 Now that the server is up and running we need to connect clients to it.
 
 ### MacOS
-If the client runs on MacOS, we wil need to press "Command + K" and type smb://serverIP/Courses/specifiCourse. When logging in, we will need to type in the user that we created earlier, and the samba  password that made when running the script. 
+If the client runs on MacOS, we wil need to press "Command + K" and type smb://serverIP/Courses/specifiCourse. When logging in, we will need to type in the user that we created earlier, and the samba  password that we  made when running the script. 
 
 ### Windows
 On this operating system, we just need to Files, right click on 'This PC' and click 'Map network drive...", then type "\\serverIP\Courses\specificCourse", and again, log in with the allowed user and its respective samba passsword.
